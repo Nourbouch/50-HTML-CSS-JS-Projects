@@ -1,69 +1,69 @@
-# HTML-CSS-JS-Projects
+# HTML CSS JavaScript Projects
 
-Welcome to the HTML-CSS-JS-Projects repository! This repository contains a collection of 50 projects built using HTML, CSS, and JavaScript. Each project serves as a demonstration of various frontend web development skills, offering valuable templates and learning resources for web development enthusiasts.
+Welcome to the JavaScript Projects repository! This repository contains a collection of 50 JavaScript projects. Each project serves as a demonstration of various JavaScript skills, offering valuable templates and learning resources for JavaScript enthusiasts.
 
 ## Description
 
-Explore a diverse range of frontend web development skills with this repository containing 50 projects built exclusively using HTML, CSS, and JavaScript. These projects serve as standalone demonstrations of various web interfaces, layouts, and designs, providing valuable templates and learning resources for HTML, CSS, and JavaScript enthusiasts.
+Explore a diverse range of JavaScript projects with this repository containing 50 projects built exclusively using JavaScript. These projects serve as standalone demonstrations of various functionalities, providing valuable templates and learning resources for JavaScript enthusiasts.
 
 ## Projects
 
 Explore the projects below:
 
-1. [Personal Portfolio Website](Personal_Portfolio_Website)
-2. [Restaurant Menu Page](Restaurant_Menu_Page)
-3. [Product Landing Page](Product_Landing_Page)
-4. [Blog Homepage](Blog_Homepage)
-5. [Weather App Interface](Weather_App_Interface)
-6. [Online Resume/CV](Online_Resume_CV)
-7. [E-commerce Product Card](E-commerce_Product_Card)
-8. [Pricing Table](Pricing_Table)
-9. [FAQ Page](FAQ_Page)
-10. [Countdown Timer Page](Countdown_Timer_Page)
-11. [Contact Form Page](Contact_Form_Page)
-12. [Image Gallery](Image_Gallery)
-13. [Login Form](Login_Form)
-14. [Signup Form](Signup_Form)
-15. [Travel Destination Page](Travel_Destination_Page)
-16. [Event Invitation Page](Event_Invitation_Page)
-17. [Fitness Tracker Dashboard](Fitness_Tracker_Dashboard)
-18. [Movie Review Page](Movie_Review_Page)
-19. [Recipe Card](Recipe_Card)
-20. [Music Player Interface](Music_Player_Interface)
-21. [Online Survey Form](Online_Survey_Form)
-22. [Newsletter Subscription Page](Newsletter_Subscription_Page)
-23. [Testimonials Page](Testimonials_Page)
-24. [Error 404 Page](Error_404_Page)
-25. [Social Media Profile Page](Social_Media_Profile_Page)
-26. [Countdown to New Year Page](Countdown_to_New_Year_Page)
-27. [Wedding Invitation Page](Wedding_Invitation_Page)
-28. [Team Member Profile Cards](Team_Member_Profile_Cards)
-29. [Charity Donation Page](Charity_Donation_Page)
-30. [Coming Soon Page](Coming_Soon_Page)
-31. [Video Player Interface](Video_Player_Interface)
-32. [Online Store Checkout Page](Online_Store_Checkout_Page)
-33. [Book Summary Page](Book_Summary_Page)
-34. [Job Listings Page](Job_Listings_Page)
-35. [FAQ Accordion](FAQ_Accordion)
-36. [Personal Blog Post](Personal_Blog_Post)
-37. [Poll Voting Page](Poll_Voting_Page)
-38. [Flashcard Learning Interface](Flashcard_Learning_Interface)
-39. [Interactive Map](Interactive_Map)
-40. [Photo Editing Tool Interface](Photo_Editing_Tool_Interface)
-41. [Currency Converter Interface](Currency_Converter_Interface)
-42. [Calculator Interface](Calculator_Interface)
-43. [Recipe Box Page](Recipe_Box_Page)
-44. [Online Portfolio Showcase](Online_Portfolio_Showcase)
-45. [Music Playlist Page](Music_Playlist_Page)
-46. [Recipe Search Page](Recipe_Search_Page)
-47. [Contact List Page](Contact_List_Page)
-48. [Todo List Page](Todo_List_Page)
-49. [Code Snippet Sharing Page](Code_Snippet_Sharing_Page)
-50. [Personality Quiz Page](Personality_Quiz_Page)
+1. [Temperature Converter](Temperature_Converter.js)
+2. [Todo List](Todo_List.js)
+3. [Calculator](Calculator.js)
+4. [Palindrome Checker](Palindrome_Checker.js)
+5. [Number Guessing Game](Number_Guessing_Game.js)
+6. [Tip Calculator](Tip_Calculator.js)
+7. [Random Quote Generator](Random_Quote_Generator.js)
+8. [BMI Calculator](BMI_Calculator.js)
+9. [Tic-Tac-Toe Game](Tic_Tac_Toe_Game.js)
+10. [Currency Converter](Currency_Converter.js)
+11. [Stopwatch](Stopwatch.js)
+12. [Digital Clock](Digital_Clock.js)
+13. [Rock, Paper, Scissors Game](Rock_Paper_Scissors_Game.js)
+14. [Palindrome Detector](Palindrome_Detector.js)
+15. [Random Password Generator](Random_Password_Generator.js)
+16. [Fibonacci Sequence Generator](Fibonacci_Sequence_Generator.js)
+17. [Factorial Calculator](Factorial_Calculator.js)
+18. [FizzBuzz Game](FizzBuzz_Game.js)
+19. [Prime Number Checker](Prime_Number_Checker.js)
+20. [Vowel Counter](Vowel_Counter.js)
+21. [Alarm Clock](Alarm_Clock.js)
+22. [Countdown Timer](Countdown_Timer.js)
+23. [Age Calculator](Age_Calculator.js)
+24. [Binary to Decimal Converter](Binary_to_Decimal_Converter.js)
+25. [Decimal to Binary Converter](Decimal_to_Binary_Converter.js)
+26. [Roman Numeral Converter](Roman_Numeral_Converter.js)
+27. [Pig Latin Translator](Pig_Latin_Translator.js)
+28. [Password Strength Checker](Password_Strength_Checker.js)
+29. [BMI Tracker](BMI_Tracker.js)
+30. [Password Generator](Password_Generator.js)
+31. [Palindrome Tester](Palindrome_Tester.js)
+32. [Factorial Finder](Factorial_Finder.js)
+33. [Fibonacci Number Finder](Fibonacci_Number_Finder.js)
+34. [FizzBuzz Tester](FizzBuzz_Tester.js)
+35. [Prime Number Tester](Prime_Number_Tester.js)
+36. [Factorial Calculator](Factorial_Calculator.js)
+37. [GCD (Greatest Common Divisor) Calculator](GCD_Calculator.js)
+38. [LCM (Least Common Multiple) Calculator](LCM_Calculator.js)
+39. [Binary Search](Binary_Search.js)
+40. [Linear Search](Linear_Search.js)
+41. [Bubble Sort](Bubble_Sort.js)
+42. [Insertion Sort](Insertion_Sort.js)
+43. [Selection Sort](Selection_Sort.js)
+44. [Merge Sort](Merge_Sort.js)
+45. [Quick Sort](Quick_Sort.js)
+46. [Hash Table Implementation](Hash_Table.js)
+47. [Stack Implementation](Stack.js)
+48. [Queue Implementation](Queue.js)
+49. [Linked List Implementation](Linked_List.js)
+50. [Binary Tree Implementation](Binary_Tree.js)
 
 ## Get Started
 
-To explore any project, simply click on the respective link above to navigate to its folder.
+To explore any project, simply click on the respective link above to view its code.
 
 ## Feedback and Contributions
 
