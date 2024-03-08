@@ -8,9 +8,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <title>start files</title>
+    <title>Todo List</title>
   </head>
   <body>
+    <!-- Todo must have add delete + edit  -->
+    <div class="container">
+      <form id="form">
+        <div class="group-input">
+          <input type="text" placeholder="Ex: Learning about new things ..." />
+          <button id="add" type="submit">Add New Todo!</button>
+        </div>
+      </form>
+      <ul id="todos-list"></ul>
+    </div>
     <script src="src/js/script.js"></script>
   </body>
 </html>
