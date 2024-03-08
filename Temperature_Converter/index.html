@@ -8,9 +8,42 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <title>start files</title>
+    <title>Temperature Converter</title>
   </head>
   <body>
+    <div class="container">
+      <div class="title">
+        <h1>Temperature Converter</h1>
+        <p>
+          A JavaScript app for converting temperatures between Celsius,
+          Fahrenheit, and Kelvin scales.
+        </p>
+      </div>
+      <div id="app">
+        <div class="temp_convert_to">
+          <label for="temp_convert_to">Temperature Convert To :</label>
+          <select id="temp_convert_to">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+        </div>
+        <input type="number" name="temperature value" id="temp_value" />
+
+        <button id="btn">Show Result</button>
+      </div>
+      <div class="temp-convert">
+        <label for="tempUnit">Temperature Unit :</label>
+        <select name="temperature unit" id="temp_unit">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+      </div>
+      <div class="temp-result">
+        <h2 id="result"></h2>
+      </div>
+    </div>
     <script src="src/js/script.js"></script>
   </body>
 </html>
