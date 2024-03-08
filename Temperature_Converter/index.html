@@ -13,7 +13,9 @@
   <body>
     <div class="container">
       <div class="title">
-        <h1>Temperature Converter</h1>
+        <h1>
+          <i class="fas fa-thermometer-half icon"></i>Temperature Converter
+        </h1>
         <p>
           A JavaScript app for converting temperatures between Celsius,
           Fahrenheit, and Kelvin scales.
@@ -28,9 +30,10 @@
             <option value="kelvin">Kelvin</option>
           </select>
         </div>
-        <input type="number" name="temperature value" id="temp_value" />
-
-        <button id="btn">Show Result</button>
+        <section>
+          <label for="temp_value">Temperature Value :</label>
+          <input type="number" name="temperature value" id="temp_value" />
+        </section>
       </div>
       <div class="temp-convert">
         <label for="tempUnit">Temperature Unit :</label>
@@ -41,7 +44,9 @@
         </select>
       </div>
       <div class="temp-result">
-        <h2 id="result"></h2>
+        <h2>
+          <i class="fas fa-temperature-low icon"></i><span id="result"></span>
+        </h2>
       </div>
     </div>
     <script src="src/js/script.js"></script>

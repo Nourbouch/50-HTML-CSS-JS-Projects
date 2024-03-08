@@ -4,8 +4,7 @@ const elements = {
   temperatureConvertTo: document.getElementById("temp_convert_to"),
   result: document.getElementById("result"),
 };
-
-elements.temperatureValue.addEventListener("input", () => {
+function convertTemperature() {
   const { value } = elements.temperatureValue;
 
   if (value !== "") {
@@ -48,4 +47,7 @@ elements.temperatureValue.addEventListener("input", () => {
       convertTo === "kelvin" ? "K" : `°${convertTo.toUpperCase()}`;
     elements.result.innerHTML = `${convertedValue.toFixed(2)}${resultUnit}`;
   }
-});
+}
+elements.temperatureValue.addEventListener("input", convertTemperature);
+elements.temperatureUnit.addEventListener("change", convertTemperature);
+elements.temperatureConvertTo.addEventListener("change", convertTemperature);
