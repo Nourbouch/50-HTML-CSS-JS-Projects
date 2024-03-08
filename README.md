@@ -10,7 +10,7 @@ Explore a diverse range of JavaScript projects with this repository containing 5
 
 Explore the projects below:
 
-1. [Temperature Converter](Temperature_Converter.js)
+1. [Temperature Converter](Temperature_Converter)
 2. [Todo List](Todo_List.js)
 3. [Calculator](Calculator.js)
 4. [Palindrome Checker](Palindrome_Checker.js)
