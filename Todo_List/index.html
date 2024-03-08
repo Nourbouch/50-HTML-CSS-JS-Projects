@@ -13,14 +13,20 @@
   <body>
     <!-- Todo must have add delete + edit  -->
     <div class="container">
-      <form id="form">
-        <div class="group-input">
-          <input type="text" placeholder="Ex: Learning about new things ..." />
-          <button id="add" type="submit">Add New Todo!</button>
-        </div>
-      </form>
-      <ul id="todos-list"></ul>
+      <div class="content">
+        <form id="form">
+          <div class="group-input">
+            <input
+              type="text"
+              id="input"
+              placeholder="Ex: Learning about new things ..."
+            />
+            <button id="add" type="submit">Add New Todo!</button>
+          </div>
+        </form>
+        <ul id="todos-list"></ul>
+      </div>
     </div>
-    <script src="src/js/script.js"></script>
+    <script src="src/js/script.js" type="module"></script>
   </body>
 </html>
