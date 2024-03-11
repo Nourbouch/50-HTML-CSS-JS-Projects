@@ -4,3 +4,99 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-size: 400% 200%;
+  animation: isBG infinite 30s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background-image: linear-gradient(30deg, #a6c7f1, #e3f2f3);
+}
+@keyframes isBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.calculator {
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.14);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.3px);
+  -webkit-backdrop-filter: blur(3.3px);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+}
+.calculator-app {
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.295);
+  padding: 30px 10px;
+  background-color: #ced9e9c5;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 30px;
+}
+.calculator-app .calculator-display {
+  background-color: #e3f2f3;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.253);
+}
+.calulator-time {
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  font-weight: bolder;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.452);
+  color: #fff;
+  background-color: #315079;
+}
+.calculator-app .calculator-keys {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.calculator-app .calculator-keys .top-keys,
+.calculator-app .calculator-keys .bottom-keys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-content: center;
+  gap: 10px;
+  place-items: center;
+}
+
+.bottom-keys .calculator-key,
+.top-keys .calculator-key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 25px;
+  width: 100%;
+  height: 50px;
+}
+
+.calculator-app .calculator-keys .top-keys .calculator-key:hover {
+  background-color: rgba(255, 255, 255, 0.603);
+  transition: 0.3s;
+}
+.calculator-app .calculator-keys .bottom-keys .calculator-key:hover {
+  background-color: rgba(255, 255, 255, 0.603);
+  transition: 0.3s;
+}
