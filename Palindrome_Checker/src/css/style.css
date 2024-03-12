@@ -2,5 +2,46 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif}
-  
+  font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  gap: 10px;
+  background: #222;
+}
+.container h1 {
+  text-align: center;
+  color: #eee;
+}
+.app {
+  min-width: 400px;
+  padding: 20px;
+  background: rgba(89, 89, 95, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+input {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px;
+  background-color: whitesmoke;
+  font-size: 20px;
+}
+p {
+  margin-top: 20px;
+  background: rgba(58, 26, 204, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 15px;
+  color: white;
+}

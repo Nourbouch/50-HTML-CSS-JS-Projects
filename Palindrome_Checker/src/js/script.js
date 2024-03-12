@@ -1,6 +1,5 @@
 const text = document.getElementById("text");
 const result = document.getElementById("result");
-const check = document.getElementById("check");
 text.addEventListener("input", () => {
   test(text.value);
 });
