@@ -4,3 +4,38 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.container{
+  height:100vh;
+  background:#222;
+  color:#eee;
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+  align-items:center;
+  justify-content:center;
+}
+.app{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  gap:20px;
+
+}
+.app-content{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+}
+.app-content *{
+  padding:10px;
+  border:none;
+  cursor:pointer;
+  font-size:20px;
+}
+button:hover{
+  transition:.3s;
+  background:#fff;
+}
