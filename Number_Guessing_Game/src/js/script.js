@@ -1,42 +1,45 @@
 const input = document.getElementById("number");
-const btn = document.getElementById("btn");
+const form = document.forms[0];
 const result = document.getElementById("result");
-const app = document.querySelector('.app');
+const app = document.querySelector(".app");
 let arrayOfGuessedNumbers = [];
 let counter = 0;
 let arr = [45, 24, 67, 234, 132, 50, 32, 78, 75, 23, 124];
 let randomIndex = Math.floor(Math.random() * arr.length);
 let random = arr[randomIndex];
-document.querySelector('#e').innerHTML = `The Number is Between :  ${random + randomIndex + 3} ${random - randomIndex - 3}`;
+document.querySelector("#e").innerHTML = `The Number is Between :  ${
+  random + randomIndex + 3
+} ${random - randomIndex - 3}`;
 
-btn.addEventListener("submit", () => {
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  arrayOfGuessedNumbers.push({
+    guessedNumber: input.value,
+    randomNumber: random,
+    answer: parseInt(input.value) === random,
+  });
   counter++;
   if (counter > 10) {
     showTableAndResetButton();
   } else {
-    if (input.value !== '' && input.value.length > 0) {
+    if (input.value !== "" && input.value.length > 0) {
       let val = parseInt(input.value);
       if (val === random) {
         result.innerText = "You are correct";
         result.classList.add("correct");
         result.classList.remove("false");
-        showTableAndResetButton()
+        showTableAndResetButton();
       } else {
         result.classList.remove("correct");
         result.className = "false";
         result.innerText = "YOU ARE WRONG!";
       }
-      arrayOfGuessedNumbers.push({
-        guessedNumber: val,
-        randomNumber: random,
-        answer: val === random
-      });
-      input.value = '';
+
+      input.value = "";
       input.focus();
     } else {
-      alert('Please Enter a valid number !');
+      alert("Please Enter a valid number !");
     }
-
   }
 });
 
@@ -46,7 +49,9 @@ function showTableAndResetButton() {
     tableContent += `
                     <tr>
                         <td>${index + 1}</td>
-                        <td>[ Your choice = ${guess.guessedNumber} | Machine Choice = ${guess.randomNumber} ]</td>
+                        <td>[ Your choice = ${
+                          guess.guessedNumber
+                        } | Machine Choice = ${guess.randomNumber} ]</td>
                         <td>${guess.answer ? "True" : "False"}</td>
                     </tr>
                 `;
