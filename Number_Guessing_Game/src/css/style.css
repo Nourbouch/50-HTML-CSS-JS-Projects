@@ -6,8 +6,6 @@
 }
 .container{
   height:100vh;
-  background:#222;
-  color:#eee;
   display:flex;
   flex-direction:column;
   gap:30px;
@@ -28,14 +26,57 @@
   align-items:center;
   justify-content:center;
   gap:10px;
+  
 }
-.app-content *{
+h2{
+  margin: 20px 0;
+  padding: 15px;
+  text-align:center;
+}
+.app-content input,
+.app-content button{
   padding:10px;
   border:none;
+  box-shadow:0 0 4px rgba(0 , 0 , 0 ,0.3);
   cursor:pointer;
+  margin-left:10px;
   font-size:20px;
 }
 button:hover{
   transition:.3s;
   background:#fff;
 }
+.correct{
+  background-color:green;
+  color:white;
+}
+.false{
+  background-color:red;
+  color:white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align:center;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding:10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
