@@ -1,8 +1,6 @@
 const input = document.getElementById("number")
 const btn = document.getElementById("btn")
 const result = document.getElementById("result")
-
-btn.addEventListener("click",()=>{
   if(input.value !== '' && input.value.length > 0){
      let val = parseInt(input.value);
     const random = Math.floor(Math.random() * 3)
