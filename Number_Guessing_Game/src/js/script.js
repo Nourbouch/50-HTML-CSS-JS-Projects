@@ -57,7 +57,7 @@ function showTableAndResetButton() {
       <tr>
         <td>${index + 1}</td>
         <td>[ Your choice = ${guess.guessedNumber} - Machine Choice ${guess.randomNumber} ]</td>
-        <td>${guess.answer ? "You are correct" : "YOU ARE WRONG!"}</td>
+        <td>${guess.answer ? "True" : "False"}</td>
       </tr>
     `;
   });
