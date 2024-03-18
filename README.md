@@ -12,9 +12,9 @@ Explore the projects below:
 
 1. [Temperature Converter](Temperature_Converter)
 2. [Todo List](Todo_List)
-3. [Calculator](Calculator.js)
-4. [Palindrome Checker](Palindrome_Checker.js)
-5. [Number Guessing Game](Number_Guessing_Game.js)
+3. [Calculator](Calculator)
+4. [Palindrome Checker](Palindrome_Checker)
+5. [Number Guessing Game](Number_Guessing_Game)
 6. [Tip Calculator](Tip_Calculator.js)
 7. [Random Quote Generator](Random_Quote_Generator.js)
 8. [BMI Calculator](BMI_Calculator.js)
