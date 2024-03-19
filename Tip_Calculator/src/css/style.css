@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: serif;
+  color: #555;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app {
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.699);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+}
+.app h1 {
+  color: white;
+  text-align: center;
+}
+fieldset {
+  border: none;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.123);
+}
+.app-container form {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #ffffffee;
+}
+form .form-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 10px;
+}
+.form-group .inputs-group {
+  border-right: 2px solid rgba(0, 0, 0, 0.11);
+  width: 380px;
+}
+.form-group .inputs-group,
+.form-group .results {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-family: sans-serif;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.021);
+}
+input:focus {
+  transition: 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.13), 0 0 4px rgba(0, 0, 0, 0.13);
+}
+label {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.results .total,
+.results .per-person,
+.results .total-per-person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  margin: 14px 0;
+}
+
+.results .total div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.results h2 {
+  font-size: 40px;
+}
+
+.results p:first-child {
+  font-style: italic;
+  margin: 4px 0;
+  font-weight: bold;
+}
+.results p:last-child {
+  font-size: 14px;
+  color: #999;
+}
+@media screen and (max-width: 768px) {
+  .form-group {
+    flex-direction: column;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .form-group .inputs-group {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.089);
+    padding-bottom: 20px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
