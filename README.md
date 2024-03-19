@@ -15,7 +15,7 @@ Explore the projects below:
 3. [Calculator](Calculator)
 4. [Palindrome Checker](Palindrome_Checker)
 5. [Number Guessing Game](Number_Guessing_Game)
-6. [Tip Calculator](Tip_Calculator.js)
+6. [Tip Calculator](Tip_Calculator)
 7. [Random Quote Generator](Random_Quote_Generator.js)
 8. [BMI Calculator](BMI_Calculator.js)
 9. [Tic-Tac-Toe Game](Tic_Tac_Toe_Game.js)
