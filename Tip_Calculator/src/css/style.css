@@ -98,3 +98,18 @@ label {
   font-size: 14px;
   color: #999;
 }
+@media screen and (max-width: 768px) {
+  .form-group {
+    flex-direction: column;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .form-group .inputs-group {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.089);
+    padding-bottom: 20px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
